@@ -44,6 +44,7 @@ public class ToDoActivity extends ActionBarActivity {
     }
     private AdapterView.OnItemLongClickListener deleteItem=
             new AdapterView.OnItemLongClickListener(){
+               ///
                 @Override
                 public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                     AlertDialog.Builder dialog=new AlertDialog.Builder(ToDoActivity.this);
